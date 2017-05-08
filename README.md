@@ -22,7 +22,6 @@ This course is aimed at people with basic to intermediate knowledge of python an
 - In the `main_tutorial`, it is recommended to follow the `tutorial_pipeline` first. By following the exercises, you should be able to implement your own segmentation pipeline. If you run into trouble, you can use the provided solutions as inspiration - however, it is *highly* recommended to spend a lot of time figuring things out yourself, as this is an important part of any programming exercise.
 
 
-
 ## Concepts discussed in course lectures
 
 1. **Introductory Material**
@@ -35,53 +34,35 @@ This course is aimed at people with basic to intermediate knowledge of python an
 	* Arrays, indexing, slicing
 	* Using the documentation
 
-2. **Basics of BioImage Processing**
-	* Images as numbers
-		* Bit/colour depth
-		* Colour maps and look up tables 
-	* Definition of Bio-image Analysis
-		* Image Analysis definition for signal processing science 
-		* Image Analysis definition for biology
-		* Algorithms and Workflows
-		* Typical workflows in biology
-	* Convolution and Filtering
-		* Why do we do filtering?
-		* Convolution in 1D, 2D and 3D 
-	* Pre-segmentation filtering
-		* De-noising
-		* Smoothing
-		* Unsharp mask
-	* Post-segmentation filtering
-		* Tuning segmented structures
-		* Mathematical morphology, erosion, dilation
-			* Distance map 
-			* Watershed
+2. **Basics of Bio-Image Processing**
+	* Digital images
+		* Images as arrays of numbers
+		* Look-up tables (LUTs)
+		* Dimensions
+		* Bit-depth
+	* Image analysis pipelines
+		* Preprocessing: filters, kernels, convolution, background subtraction
+		* Foreground detection: thresholding, morphological operations
+		* Segmentation: labels, seeds, watershed
+		* Postprocessing: object filtering
+		* Making measurements
 
 3. **Introduction to the Tutorial Pipeline**
 	* Automated Single-Cell Segmentation
-		* Why? (Advantages of single-cell approaches)
-		* How? (Standard segmentation pipeline build)
-			* Preprocessing (smoothing, background subtraction)
-			* Presegmentation (thresholding, seed detection)
-			* Segmentation (seed expansion; e.g. watershed)
-			* Postprocessing (removing artefacts, refining segmentation)
-			* Quantification and analysis
-		* What? (for the main tutorial: 2D spinning disc confocal fluorescence microscopy images of Zebrafish embryonic cells)
+		* Why? (advantages of single-cell approaches)
+		* How? (segmentation pipeline)
+		* What? (2D spinning disc confocal fluorescence microscopy images of Zebrafish embryonic cells)
 		* Who? (YOU!)
 
-3. **Advanced material**
-	* CellProfiler to automate image analysis workflows and python plugin module
-	* Code Optimisation (vectorisation, multiprocessing, cluster processing) & advanced data analysis
+3. **Advanced material [NOT YET AVAILABLE; MAY BE ADDED LATER]**
+	* What comes after segmentation: downstream data further analysis
+	* Code Optimisation (vectorisation, multiprocessing, cluster processing)
 
-		
+
 ## Instructors
 
-- Jonas Hartmann
-    - Gilmour Lab, CBB, EMBL
-    - Pipeline developer, practical materials preparation, tutor, TA
-- Toby Hodges
-    - Bio-IT, Zeller Team, SCB, EMBL
-    - TA (python)
+- Jonas Hartmann (Gilmour Lab, CBB, EMBL)
+- Toby Hodges (Bio-IT, Zeller Team, SCB, EMBL)
 
 
 ## Inspiration

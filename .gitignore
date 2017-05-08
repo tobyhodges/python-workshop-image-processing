@@ -4,3 +4,4 @@ main_tutorial/.ipynb_checkpoints/
 pre_tutorial/.ipynb_checkpoints
 pre_tutorial/.ipynb_checkpoints/*
 pre_tutorial/.ipynb_checkpoints/
+*.pyc
