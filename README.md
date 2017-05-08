@@ -19,6 +19,7 @@ This course is aimed at people with basic to intermediate knowledge of python an
 
 - If you have only very basic knowledge of python or if you are feeling a little rusty, you should start with the `pre_tutorial`, which includes two notebooks: one on `numpy` arrays and one on the basics of Jupyter and `matplotlib`. If you are more experienced, you may want to skim or skip the pre-tutorial.
 
+
 - In the `main_tutorial`, it is recommended to follow the `tutorial_pipeline` first. By following the exercises, you should be able to implement your own segmentation pipeline. If you run into trouble, you can use the provided solutions as inspiration - however, it is *highly* recommended to spend a lot of time figuring things out yourself, as this is an important part of any programming exercise.
 
 
@@ -34,6 +35,7 @@ This course is aimed at people with basic to intermediate knowledge of python an
 	* Arrays, indexing, slicing
 	* Using the documentation
 
+
 2. **Basics of Bio-Image Processing**
 	* Digital images
 		* Images as arrays of numbers
@@ -47,6 +49,7 @@ This course is aimed at people with basic to intermediate knowledge of python an
 		* Postprocessing: object filtering
 		* Making measurements
 
+
 3. **Introduction to the Tutorial Pipeline**
 	* Automated Single-Cell Segmentation
 		* Why? (advantages of single-cell approaches)
@@ -54,7 +57,8 @@ This course is aimed at people with basic to intermediate knowledge of python an
 		* What? (2D spinning disc confocal fluorescence microscopy images of Zebrafish embryonic cells)
 		* Who? (YOU!)
 
-3. **Advanced material [NOT YET AVAILABLE; MAY BE ADDED LATER]**
+
+3. **Advanced materials** *[not yet available; may be added later]*
 	* What comes after segmentation: downstream data further analysis
 	* Code Optimisation (vectorisation, multiprocessing, cluster processing)
 
