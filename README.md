@@ -10,7 +10,7 @@ All material is provided as Jupyter notebooks. To find out more about how to run
 
 The [`main_tutorial`](./main_tutorial/) uses single-cell segmentation of a confocal fluorescence microscopy image to illustrate key concepts from preprocessing to segmentation to data analysis. It includes a tutorial on how to apply such a pipeline to multiple images at once (batch processing).
 
-The main tutorial is complemented by the [`pre_tutorial`](./pre_tutorial/) content, which provides some basics of Jupyter, `matplotlib` and an introduction to `numpy` and working with arrays, and by the `optional_advanced_content`, which features further examples and tutorials on the topics of vectorization, multiprocessing, cluster computation and advanced data analysis.
+The main tutorial is complemented by the [`pre_tutorial`](./pre_tutorial/) content, which provides some basics of Jupyter, `matplotlib` and an introduction to `numpy` and working with arrays.
 
 This course is aimed at people with basic to intermediate knowledge of python and basic knowledge of microscopy. For people with basic knowledge of image processing, the tutorials can be followed without attending the lectures.
 
@@ -21,12 +21,11 @@ This course is aimed at people with basic to intermediate knowledge of python an
 
 - In the `main_tutorial`, it is recommended to follow the `tutorial_pipeline` first. By following the exercises, you should be able to implement your own segmentation pipeline. If you run into trouble, you can use the provided solutions as inspiration - however, it is *highly* recommended to spend a lot of time figuring things out yourself, as this is an important part of any programming exercise.
 
-- Finally, the `optional_advanced_content` contains an introductory example to three important techniques for making making your scripts faster and operating on large datasets, namely *vectorization*, *multiprocessing* and *cluster processing*. The `data_analysis` tutorial (currently in *BETA*!) is an introduction to piping segmentation results into more advanced statistical data analysis, including *feature extraction*, *PCA*, *clustering* and *graph-based analysis*.
 
 
 ## Concepts discussed in course lectures
 
-1. **Introductory Material (Toby Hodges)**
+1. **Introductory Material**
    	* Working with the Jupyter Notebook
 	* Importing packages and modules
 	* Reading data from files
@@ -36,7 +35,7 @@ This course is aimed at people with basic to intermediate knowledge of python an
 	* Arrays, indexing, slicing
 	* Using the documentation
 
-2. **Basics of BioImage Processing (KM)**
+2. **Basics of BioImage Processing**
 	* Images as numbers
 		* Bit/colour depth
 		* Colour maps and look up tables 
@@ -58,7 +57,7 @@ This course is aimed at people with basic to intermediate knowledge of python an
 			* Distance map 
 			* Watershed
 
-3. **Introduction to the Tutorial Pipeline (JH)**
+3. **Introduction to the Tutorial Pipeline**
 	* Automated Single-Cell Segmentation
 		* Why? (Advantages of single-cell approaches)
 		* How? (Standard segmentation pipeline build)
@@ -71,8 +70,8 @@ This course is aimed at people with basic to intermediate knowledge of python an
 		* Who? (YOU!)
 
 3. **Advanced material**
-	* CellProfiler to automate image analysis workflows and python plugin module **(VH)**
-	* Code Optimisation (vectorisation, multiprocessing, cluster processing) & advanced data analysis **(JH)**
+	* CellProfiler to automate image analysis workflows and python plugin module
+	* Code Optimisation (vectorisation, multiprocessing, cluster processing) & advanced data analysis
 
 		
 ## Instructors
